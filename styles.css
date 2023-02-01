@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+}
+
+.logo img{
+    width: 37px;
+    margin: 16px 0 0 40px;
+}
+
+.logo i{
+    float: right;
+    font-size: 24px;
+    color: #8a8282;
+    margin: 22px 70px 0 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+fieldset{
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid #e7e4e4;
+    margin: 20px auto 0 auto;
+}
+
+fieldset h3{
+    font-size: 26px;
+    margin: 45px 0 30px 50px;
+    font-weight: bold;
+}
+
+
+fieldset .email{
+    margin: 0 50px 0px 50px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+fieldset .account{
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+
+fieldset input{
+    margin: 7px 50px 0 50px;
+    width: 400px;
+    height: 50px;
+    border: 1px solid #e7e4e4;
+    border-radius: 5px;
+}
+
+fieldset .password{
+    margin: 30px 50px 0px 50px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+fieldset .eye{
+    float: right;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+fieldset button{
+    background-color: #04aa6d;
+    width: 400px;
+    margin: 60px 50px 0 50px;
+    border: none;
+    padding: 15px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+fieldset button:hover{
+    background-color: #0ab677;
+}
+
+fieldset a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+}
+
+fieldset .forget-pass{
+    text-align: center;
+    margin: 20px auto 50px auto;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+fieldset .sign-up{
+    color: #04aa6d;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+
+section .link{
+    font-size: 12px;
+    color: gray;
+    margin-top: 50px;
+    text-align: center;
+    letter-spacing: px;
+}
+
+section .link a{
+    color: gray;
+}
+
+.help{
+    margin-top: -31px;
+    float: right;
+    margin-right: 20px;
+}
+
+.help button{
+    background-color: #04aa6d;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    width: 110px;
+    cursor: pointer;
+}
+
+.help a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 360px){
+    body{
+        width: 100%;
+    }
+    
+    .logo img{
+        display: none;
+    }
+    .logo i{
+        font-size: 13px;
+        margin: 30px 30px 0 0;
+    }
+    fieldset{
+        border: none;
+    }
+    fieldset h3{
+        font-size: 20px;
+        font-weight: 900;
+        margin: 5px 0 30px 30px;
+    }
+    fieldset .email{
+        margin: 0 60px 4px 30px;
+        font-size: 13px;
+    }
+    fieldset .account{
+        font-size: 12px;
+    }
+    fieldset .sign-up{
+        font-size: 12px;
+    }
+    fieldset input{
+        margin: 0 30px 30px 30px;
+        width: 305px;
+        height: 40px;
+    }
+    fieldset .password{
+        margin: 0 60px 4px 30px;
+        font-size: 13px;
+    }
+    fieldset button{
+        width: 305px;
+        margin: 0 30px 0px 30px;
+        background-color: rgb(22, 160, 22);
+    }
+    fieldset button a{
+        font-size: 15px;
+        font-weight: lighter;
+    }
+    fieldset .forget-pass{
+        font-size: 12px;
+        font-weight: bold;
+        display: flex;
+        margin: 25px 0 0 140px;
+    }
+    section .link{
+        font-size: 10px;
+        margin: 100px 30px 0 30px;
+        letter-spacing: .5px;
+    }
+    .help{
+        margin-top: -31px;
+        float: right;
+        margin-right: 10px;
+    }
+    
+    .help button{
+        background-color: rgb(22, 160, 22);
+        padding: 5px;
+        border: none;
+        border-radius: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+    
+    .help a{
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    .help span{
+        display: none;
+    }
+}
